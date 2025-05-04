@@ -1,3 +1,5 @@
+//                          Day 4
+
 // Random Number Generator
 
 const my_btn = document.getElementById("my-btn");

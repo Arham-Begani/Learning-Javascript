@@ -73,3 +73,24 @@ switch (true){
 
 console.log(letterGrade);
 
+// String Slicing
+
+const email = "arhambegani@gmail.com"
+
+let username = email.slice(0 , email.indexOf("@"))
+let extension = email.slice(email.indexOf("@") + 1)
+
+console.log(extension)
+console.log(username)
+
+//         Method chaining
+
+let user = window.prompt("Enter Your Name: ")
+
+user = user.trim()
+let letter = user.charAt(0)
+letter = letter.toUpperCase()
+
+let extrachars = user.slice(1)
+extrachars = extrachars.toLowerCase()
+console.log(letter + extrachars)
